@@ -1,6 +1,7 @@
 # Laravelchat Build in Laravel 6
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
-# ** Getting Started ** 
+# Getting Started
 
 ```
 git clone https://github.com/technology-inspirations/laravelchat_laravel6.git
@@ -8,7 +9,7 @@ composer install
 php artisan key:generate
 ```
 
-# ** Setup Pusher **
+# Setup Pusher 
 
 If you don't have one already, create a ** free Pusher account**  at ** https://pusher.com/signup ** then login to your dashboard and create an app.
 
@@ -27,7 +28,7 @@ PUSHER_APP_SECRET=xxxxxxxxxxxxxxxxxxxx
 PUSHER_APP_CLUSTER=
 ```
 
-# ** Database Migrations ** 
+# Database Migrations
 
 Be sure to fill in your database details in your ** .env ** file before running the migrations:
 
